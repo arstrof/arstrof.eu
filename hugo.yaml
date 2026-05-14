@@ -1,0 +1,147 @@
+baseURL: "https://arstrof.eu"
+languageCode: "en-us"
+title: "Arsenii Trofimov"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main: []
+
+params:
+  title: "Arsenii Trofimov"
+  description: "Aerospace Engineering student at TU Delft, passionate about drones and autonomous systems."
+  favicon: "/fav.png"
+  useBootstrapCDN: false
+  animate: true
+
+  theme:
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "arstrof"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: false
+      disableProjects: true
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Arsenii."
+    subtitle: "I build things that fly."
+    content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/arstrof
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+      I'm an Aerospace Engineering student at TU Delft with a deep interest in drones and autonomous flight systems. I enjoy working on projects that sit at the intersection of hardware, software, and the physics of flight.
+
+      When I'm not studying, I'm tinkering with drone builds, exploring embedded systems, and learning about flight control.
+    skills:
+      enable: true
+      title: "Things I work with:"
+      items:
+        - "Python"
+        - "MATLAB"
+        - "CAD / Fusion 360"
+        - "Linux"
+        - "Git"
+        - "ROS"
+
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "BSc Aerospace Engineering"
+        school:
+          name: "Delft University of Technology (TU Delft)"
+          url: "https://www.tudelft.nl"
+        date: "2024 - present"
+        content: |-
+          Studying aerodynamics, flight mechanics, structures, and control systems.
+
+  experience:
+    enable: false
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: false
+
+  contact:
+    enable: true
+    content: "Feel free to reach out — always happy to talk drones, aerospace, or interesting projects."
+    btnName: "Email me"
+    btnLink: "mailto:arsenii.trofimov2006@gmail.com"
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: https://github.com/arstrof
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
