@@ -62,7 +62,7 @@ params:
     intro: "Hi, my name is"
     title: "Arsenii."
     subtitle: "I build things that fly."
-    content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground."
+    content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground.\n\n*Myliu tave Evutė ❤️*"
     image: /images/hero.svg
     bottomImage:
       enable: true
