@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Arms -->
+  <line x1="200" y1="200" x2="110" y2="110" stroke="#6c757d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="290" y2="110" stroke="#6c757d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="110" y2="290" stroke="#6c757d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="290" y2="290" stroke="#6c757d" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Motor mounts -->
+  <circle cx="110" cy="110" r="22" fill="#343a40" stroke="#6c757d" stroke-width="3"/>
+  <circle cx="290" cy="110" r="22" fill="#343a40" stroke="#6c757d" stroke-width="3"/>
+  <circle cx="110" cy="290" r="22" fill="#343a40" stroke="#6c757d" stroke-width="3"/>
+  <circle cx="290" cy="290" r="22" fill="#343a40" stroke="#6c757d" stroke-width="3"/>
+
+  <!-- Propellers top-left -->
+  <ellipse cx="110" cy="110" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(-30 110 110)"/>
+  <ellipse cx="110" cy="110" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(60 110 110)"/>
+
+  <!-- Propellers top-right -->
+  <ellipse cx="290" cy="110" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(30 290 110)"/>
+  <ellipse cx="290" cy="110" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(-60 290 110)"/>
+
+  <!-- Propellers bottom-left -->
+  <ellipse cx="110" cy="290" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(30 110 290)"/>
+  <ellipse cx="110" cy="290" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(-60 110 290)"/>
+
+  <!-- Propellers bottom-right -->
+  <ellipse cx="290" cy="290" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(-30 290 290)"/>
+  <ellipse cx="290" cy="290" rx="40" ry="7" fill="#007bff" fill-opacity="0.6" transform="rotate(60 290 290)"/>
+
+  <!-- Body -->
+  <rect x="165" y="165" width="70" height="70" rx="12" fill="#343a40" stroke="#007bff" stroke-width="2"/>
+
+  <!-- Camera -->
+  <circle cx="200" cy="200" r="14" fill="#1a1a2e" stroke="#6c757d" stroke-width="2"/>
+  <circle cx="200" cy="200" r="7" fill="#007bff" fill-opacity="0.5"/>
+
+  <!-- LED indicators -->
+  <circle cx="181" cy="181" r="3" fill="#00ff88"/>
+  <circle cx="219" cy="181" r="3" fill="#ff4444"/>
+</svg>

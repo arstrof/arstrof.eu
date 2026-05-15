@@ -63,7 +63,7 @@ params:
     title: "Arsenii."
     subtitle: "I build things that fly."
     content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground."
-    image: /images/hero.svg
+    image: /images/drone.svg
     bottomImage:
       enable: true
     button:

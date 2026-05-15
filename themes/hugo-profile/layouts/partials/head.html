@@ -28,17 +28,6 @@
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
-<!-- Multilingual SEO -->
-{{ if hugo.IsMultilingual }}
-  {{ range .AllTranslations }}
-    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
-  {{ end }}
-  <!-- OpenGraph locale -->
-  <meta property="og:locale" content="{{ .Language.Lang }}">
-  {{ range .Translations }}
-    <meta property="og:locale:alternate" content="{{ .Language.Lang }}">
-  {{ end }}
-{{ end }}
 
 <!-- stylesheets -->
 {{- if (or (eq .Site.Params.UseBootstrapCDN true) (eq .Site.Params.UseBootstrapCDN "css")) -}}
