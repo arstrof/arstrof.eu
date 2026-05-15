@@ -62,7 +62,7 @@ params:
     intro: "Hi, my name is"
     title: "Arsenii."
     subtitle: "I build things that fly."
-    content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground.\n\n*Myliu tave Evutė ❤️*"
+    content: "Aerospace Engineering student at TU Delft, fascinated by drones, autonomous systems, and everything that leaves the ground."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -76,7 +76,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I'm an Aerospace Engineering student at TU Delft with a deep interest in drones and autonomous flight systems. I enjoy working on projects that sit at the intersection of hardware, software, and the physics of flight.
 
@@ -85,12 +85,11 @@ params:
       enable: true
       title: "Things I work with:"
       items:
+        - "C++"
         - "Python"
-        - "MATLAB"
+        - "SOLIDWORKS"
         - "CAD / Fusion 360"
-        - "Linux"
         - "Git"
-        - "ROS"
 
   education:
     enable: true
@@ -100,7 +99,7 @@ params:
         school:
           name: "Delft University of Technology (TU Delft)"
           url: "https://www.tudelft.nl"
-        date: "2024 - present"
+        date: "2025 - present"
         content: |-
           Studying aerodynamics, flight mechanics, structures, and control systems.
 
@@ -146,5 +145,3 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  customScripts: |
-    <!-- Myliu tave Evutė ❤️ -->
