@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["hugo"]
+
+[phases.build]
+cmds = ["git submodule update --init --recursive", "hugo"]
+
+[start]
+cmd = "nginx -g 'daemon off;'"
