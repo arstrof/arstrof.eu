@@ -51,9 +51,9 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: false
-      disableProjects: true
+      disableProjects: false
       disableAchievements: true
       disableContact: false
 
@@ -87,9 +87,15 @@ params:
       items:
         - "C++"
         - "Python"
-        - "SOLIDWORKS"
-        - "CAD / Fusion 360"
+        - "HTML / JS"
+        - "LaTeX"
         - "Git"
+        - "CATIA / 3DEXPERIENCE"
+        - "SOLIDWORKS"
+        - "ArduPilot"
+        - "Betaflight"
+        - "Klipper"
+        - "Soldering"
 
   education:
     enable: true
@@ -104,13 +110,59 @@ params:
           Studying aerodynamics, flight mechanics, structures, and control systems.
 
   experience:
-    enable: false
+    enable: true
+    title: "Experience"
+    items:
+      - job: "Engineer"
+        company: "DDI"
+        date: "April 2026 – Present"
+        info:
+          enable: true
+          content: "Part-time"
+        featuredLink:
+          enable: false
+        content: |-
+          Working at a drone company assembling UAVs, planning and executing test flights, and tuning firmware. Involved across the full development cycle — from hardware assembly and electronics to field operations and flight testing.
 
   achievements:
     enable: false
 
   projects:
-    enable: false
+    enable: true
+    title: "Projects"
+    items:
+      - title: "Caladrius Mk2"
+        content: "Team project to build a VTOL fixed-wing aircraft with three tilting propellers and a 1.2m wingspan. 3D-printed airframe with carbon fiber spars, targeting ArduPlane QuadPlane on a Matek F405-WING V2 for autonomous hover-to-forward-flight transition. My responsibilities: manufacturing and electronics integration."
+        image: /images/projects/caladrius.jpg
+        badges:
+          - "ArduPilot"
+          - "CAD"
+          - "3D Printing"
+          - "Electronics"
+
+      - title: "Homemade Rocket"
+        content: "Personal project: a fully 3D-printed rocket with homemade solid propellant. Designed and printed the airframe, then formulated and cast the fuel myself. An exercise in propulsion chemistry, structural design under thrust loads, and making something fly that really shouldn't exist."
+        image: /images/projects/rocket.jpg
+        badges:
+          - "Rocketry"
+          - "Propulsion"
+          - "3D Printing"
+
+      - title: "Maximum Payload RC Aircraft"
+        content: "Team competition to design and build a fixed-wing aircraft maximising salt payload under strict constraints: no carbon fibre parts, and a protective case required to survive a 7-metre drop onto concrete. Balancing structural weight penalties against payload capacity within the ruleset."
+        image: /images/projects/rc-team.jpg
+        badges:
+          - "Aerodynamics"
+          - "Structures"
+          - "Team Project"
+
+      - title: "Custom 3D Printer"
+        content: "Built a 3D printer from scratch running Klipper firmware. Tuned motion system, extruder calibration, and thermal management. The printer now produces parts for other projects including Caladrius."
+        image: /images/projects/printer.jpg
+        badges:
+          - "Klipper"
+          - "Mechanical"
+          - "Electronics"
 
   contact:
     enable: true
